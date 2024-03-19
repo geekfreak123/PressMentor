@@ -1,8 +1,15 @@
+import Navbar from './components/Navbar'
+import './App.css'
+import Hero from './components/Hero'
+import About from './components/About'
+
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div>
+      <Navbar/>
+      <Hero/>
+      <About/>
+    </div>
   )
 }
 
