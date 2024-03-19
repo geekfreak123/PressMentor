@@ -17,7 +17,7 @@ const Navbar = () => {
                     <li><a href="#testimonials">Testimonials</a></li>
                 </ul>
             </div>
-            <div className='hidden md:flex px-8 py-3 rounded-md bg-[#20B486] text-white font-bold'><a href="#enroll-now">Enroll Now</a></div>
+            <div className='hidden md:flex px-8 py-3 rounded-md bg-[#20B486] hover:bg-[#0b5840] hover:text-[#20B486] text-white font-bold'><a href="#enroll-now">Enroll Now</a></div>
             <div className='md:hidden' onClick={handleClick}>
                 <img src={toggle?close:hamburgerMenu} />
             </div>
